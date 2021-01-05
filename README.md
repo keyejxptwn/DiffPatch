@@ -84,7 +84,7 @@
 
   
 
-- 在`MainActivity.java`中使用
+- 在`MainActivity.kt`中使用
 
   ```kotlin
    //增量更新点击
