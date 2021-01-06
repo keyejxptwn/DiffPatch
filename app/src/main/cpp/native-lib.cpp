@@ -4,13 +4,10 @@
 extern "C" {
 extern int executePatch(int argc, char *argv[]);
 }
-
 extern "C"
 JNIEXPORT jint JNICALL
-Java_com_keyejxptwn_diffpatch_BsPatchUtils_00024Companion_patch(JNIEnv *env, jobject thiz,
-                                                                jstring old_apk,
-                                                                jstring new_apk,
-                                                                jstring patch_file) {
+Java_com_keyejxptwn_diffpatch_BsPatchUtils_patch(JNIEnv *env, jobject thiz, jstring old_apk,
+                                                 jstring new_apk, jstring patch_file) {
     //其实就是执行Linux命令行 patch old_apk new_apk patch
     int args = 4;//表示命令行个数 patch old_apk new_apk patch总共4个
     char *argv[args];//参数
