@@ -59,7 +59,7 @@
   
   extern "C"
   JNIEXPORT jint JNICALL
-  Java_com_keyejxptwn_diffpatch_BsPatchUtils_00024Companion_patch(JNIEnv *env, jobject thiz,
+  Java_com_keyejxptwn_diffpatch_BsPatchUtils_patch(JNIEnv *env, jobject thiz,
                                                                   jstring old_apk,
                                                                   jstring new_apk,
                                                                   jstring patch_file) {
