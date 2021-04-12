@@ -47,7 +47,7 @@
 
   
 
-- 在`native-lib.cpp`中声明JNI方法(可以了通过android studio自动生成)
+- 在`native-lib.cpp`中声明JNI方法(可以通过android studio自动生成)
 
   ```cpp
   #include <jni.h>
